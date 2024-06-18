@@ -1,4 +1,8 @@
-# Parser
+# Custom slippilab/parser version for slp vault
+
+Basically i was using 0.0.5 of @slippilab/parser and 0.0.6 was major breaking changes that i didn't want to deal with. Also things didn't work if I didn't manually add   "main": "dist/index.js", to the package.json, so i just made this with that small change.
+
+## Parser
 
 A basic browser-friendly .slp file parser.
 
