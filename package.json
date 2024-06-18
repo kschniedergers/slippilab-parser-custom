@@ -1,0 +1,31 @@
+{
+  "name": "@slippilab/parser",
+  "version": "0.0.5",
+  "description": "A browser friendly .slp file parser",
+  "author": {
+    "name": "Frank Borden"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankborden/slippilab"
+  },
+  "type": "module",
+  "browser": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@shelacek/ubjson": "^1.1.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  }
+}
